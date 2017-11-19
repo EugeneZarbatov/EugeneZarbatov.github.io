@@ -1,0 +1,169 @@
+/* fonts */
+@font-face {
+    font-family: "Star Wars";
+    src: url("../fonts/STARWARS/STARWARS.eot") format("embedded-opentype"),
+         url("../fonts/STARWARS/STARWARS.woff") format("woff"),
+         url("../fonts/STARWARS/STARWARS.ttf") format("truetype"),
+         url("../fonts/STARWARS/STARWARS.svg#STARWARS") format("svg");
+    font-style: normal;
+    font-weight: normal;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+    margin-top: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.content.col-md-8.col-md-offset-2 {
+    box-shadow: 0 0 5px; 
+    padding: 0; 
+}
+pre {
+    background: #ffffff;
+}
+a {
+    color: #ffe600;
+    text-decoration: none;
+}
+a:hover,
+a:focus {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* navbar */
+.navbar {
+    padding: 15px;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.navbar-inverse .navbar-brand {
+    color: #ffffff;
+    font-family: "Star Wars";
+    font-size: 30px;
+    letter-spacing: 1px;
+    line-height: 1.0;
+}
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus, {
+    background: #000000;
+}
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+/* navbar */
+
+/* header */
+.header {
+    background: linear-gradient(to left ,#0066ff, #ff3300);
+    /*background: url('../images/2.jpg') no-repeat center top;*/
+    background-attachment: relative;
+    background-position: center center;
+    min-height: 400px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.header .poster {
+    text-align: center;
+}
+.header .poster h1 {
+    color: #ffffff;
+    font-family: "Star Wars";
+    font-size: 64px;
+}
+.header .poster h2 {
+    color: #ffffff;
+    font-size: 24px;
+}
+.header .poster p {
+    font-size: 14px;
+    color: #ffffff;
+}
+.btn.btn-lg.btn-download {
+    min-width: 33%;
+    color: #ffffff;
+    background-image: none; 
+    background-color: transparent;
+    border: 2px solid #ffffff;
+}
+/* header */
+
+/* get-started*/
+.get-started {
+    margin-top: 50px;
+    padding: 0 10px;
+}
+.get-started-block {
+    padding: 5px 10px;
+    background: #f5f5f5;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.code {
+    max-width: 600px;
+    margin: 10px auto 10px auto;
+}
+/* /get-started*/
+
+/* example */
+.example {
+    margin-top: 50px;
+    padding: 0 10px;
+}
+.example h1 {
+    text-align: center;
+    font-size: 64px;
+    color: #558dff;
+    font-family: "Star Wars";
+}
+.example-block {
+    padding: 5px 10px;
+    background: #f5f5f5;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.example-block h3 {
+    text-align: center;
+    color: #0251fa;
+    font-family: "Star Wars";
+    font-size: 32px;
+}
+.example-block p {
+    color: #292929;
+    font-size: 16px;
+}
+/* /example */
+
+/* footer */
+.footer {
+    background: #337ab7;
+    background: linear-gradient(to bottom,#3c3c3c 0,#222 100%);
+    margin-top: 50px;
+}
+.footer-text,
+.social-panel {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.footer-text {
+    color: #9c9c9c;
+}
+.footer-text h2 {
+    font-family: "Star Wars";
+}
+/* footer */
