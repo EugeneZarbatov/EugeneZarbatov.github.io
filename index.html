@@ -23,7 +23,7 @@
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
                     <div class="navbar-header">
-                        <a class="navbar-brand" href="index.html">Star Wars Font</a>
+                        <a class="navbar-brand" href="index.html">SWF</a>
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                             <span class="sr-only">Навигация</span>
                             <span class="icon-bar"></span>
@@ -34,10 +34,10 @@
                     <div class="navbar-collapse collapse">
                         <ul class="nav navbar-nav navbar-right">
                             <li>
-                                <a href="#get-started">Get Started</a>
+                                <a href="#get-started" class="link">Get Started</a>
                             </li>
                             <li>
-                                <a href="#example">Example</a>
+                                <a href="#example" class="link">Example</a>
                             </li>
                         </ul>
                     </div>
@@ -53,10 +53,11 @@
             <div class="content col-md-8 col-md-offset-2">
                 
                 <!-- header -->
-                <div class="header" id="header">
+                <div class="header">
                     <div class="poster">
-                        <h1>STAR WARS<br>
-                            <span class="swg swg-emperor swg-fw"></span>FONT<span class="swg swg-yoda-3 swg-fw"></span>
+                        <h1>
+                            STAR WARS<br>
+                            FONT
                         </h1>
                         <h2>May the Force be with you!</h2>
                         <br>
@@ -68,7 +69,7 @@
                 <!-- /header -->
 
                 <!-- get started -->
-                <div class="get-started" id="get-started">
+                <div id="get-started" class="get-started">
                     <h2>GET STARTED</h2>
                     <div class="get-started-block">
                         <h4>How to use this
@@ -118,8 +119,8 @@
                 <!-- /get started -->
 
                 <!-- example -->
-                <div class="example" id="example">
-                    <h2>Example</h2>
+                <div class="example">
+                    <h2 id="example">Example</h2>
                     <div class="example-block">
                         <h1>STAR WARS</h1>
                         <h3>Rogue One: A Star Wars Story</h3>
@@ -138,7 +139,7 @@
 
                 <!-- footer -->
                 <div class="footer">
-                    <div class="social-panel">
+                    <!--<div class="social-panel">
                         <a href="#" class="btn btn-social-icon btn-vk">
                             <span class="fa fa-vk"></span>
                         </a>
@@ -160,13 +161,16 @@
                         <a href="#" class="btn btn-social-icon btn-reddit">
                             <span class="fa fa-reddit"></span>
                         </a>
+                    </div>-->
+                    <div class="social-panel">
+                        <div class="ya-share2" data-services="vkontakte,facebook,odnoklassniki,gplus,twitter,reddit"></div>
                     </div>
                     <div class="footer-text">
                         <h2>STAR WARS FONT</h2>
                         <p>by Jose Conzalez Pereja - 1998 - Freeware</p>
                         <p>Design Copyright by Lucasfilm</p>
                         <p>version 2.20</p>
-                    </div>
+                    </div> 
                 </div>
                 <!-- /footer -->
 
@@ -174,6 +178,9 @@
         </div>
     </div>
     <!-- /content -->
+
+    <script src="//yastatic.net/es5-shims/0.0.2/es5-shims.min.js"></script>
+    <script src="//yastatic.net/share2/share.js"></script>
 </body>
 
 </html>
