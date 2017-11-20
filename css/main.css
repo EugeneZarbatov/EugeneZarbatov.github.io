@@ -22,15 +22,6 @@ body {
 pre {
     background: #ffffff;
 }
-a {
-    color: #ffe600;
-    text-decoration: none;
-}
-a:hover,
-a:focus {
-    color: #fff;
-    text-decoration: none;
-}
 
 /* navbar */
 .navbar {
@@ -60,8 +51,8 @@ a:focus {
 
 /* header */
 .header {
+    background: #000000;
     background: linear-gradient(to left ,#0066ff, #ff3300);
-    /*background: url('../images/2.jpg') no-repeat center top;*/
     background-attachment: relative;
     background-position: center center;
     min-height: 400px;
