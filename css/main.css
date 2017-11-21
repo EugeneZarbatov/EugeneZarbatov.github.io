@@ -17,10 +17,8 @@ body {
 }
 .content.col-md-8.col-md-offset-2 {
     box-shadow: 0 0 5px; 
-    padding: 0; 
-}
-pre {
-    background: #ffffff;
+    padding: 0;
+    background: #f5f5f5;
 }
 
 /* navbar */
@@ -53,6 +51,7 @@ pre {
 .header {
     background: #000000;
     background: linear-gradient(to left ,#0066ff, #ff3300);
+    text-align: center;
     background-attachment: relative;
     background-position: center center;
     min-height: 400px;
@@ -65,29 +64,30 @@ pre {
     -o-background-size: cover;
     background-size: cover;
 }
-
-.header .poster {
-    text-align: center;
-}
-.header .poster h1 {
+.header h1 {
     color: #ffffff;
     font-family: "Star Wars";
     font-size: 64px;
 }
-.header .poster h2 {
+.header h2 {
     color: #ffffff;
     font-size: 24px;
-}
-.header .poster p {
-    font-size: 14px;
-    color: #ffffff;
 }
 .btn.btn-lg.btn-download {
     min-width: 33%;
     color: #ffffff;
-    background-image: none; 
+    background-image: none;
     background-color: transparent;
     border: 2px solid #ffffff;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+.btn.btn-lg.btn-download:hover,
+.btn.btn-lg.btn-download:focus {
+    color: #222;
+    background: #f5f5f5;
+    font-weight: 800;
+    letter-spacing: 1px;
 }
 /* header */
 
@@ -95,17 +95,7 @@ pre {
 .get-started {
     margin-top: 50px;
     padding: 0 10px;
-}
-.get-started-block {
-    padding: 5px 10px;
-    background: #f5f5f5;
-    margin: 0 auto;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-.code {
-    max-width: 600px;
-    margin: 10px auto 10px auto;
+    font-size: 16px;
 }
 /* /get-started*/
 
@@ -114,34 +104,34 @@ pre {
     margin-top: 50px;
     padding: 0 10px;
 }
+pre {
+    background: #ffffff;
+    max-width: 600px;
+    font-size: 16px;
+    margin: 10px auto 10px auto;
+}
 .example h1 {
     text-align: center;
     font-size: 64px;
-    color: #558dff;
+    color: #001068;
     font-family: "Star Wars";
 }
-.example-block {
-    padding: 5px 10px;
-    background: #f5f5f5;
-    margin: 0 auto;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-.example-block h3 {
+.example h3 {
     text-align: center;
-    color: #0251fa;
-    font-family: "Star Wars";
+    color: #022ffa;
     font-size: 32px;
+    font-family: "Star Wars";
 }
-.example-block p {
-    color: #292929;
+.example p {
+    color: #397bfd;
     font-size: 16px;
+    font-family: "Star Wars";
 }
 /* /example */
 
 /* footer */
 .footer {
-    background: #337ab7;
+    background: #000000;
     background: linear-gradient(to bottom,#3c3c3c 0,#222 100%);
     margin-top: 50px;
 }
